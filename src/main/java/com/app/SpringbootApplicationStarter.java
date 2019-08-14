@@ -4,8 +4,8 @@ package com.app;
  * 包括@ComponentScan，@SpringBootConfiguration，@EnableAutoConfiguration
  */
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 //@EnableAutoConfiguration 
 @SpringBootApplication
 public class SpringbootApplicationStarter {
